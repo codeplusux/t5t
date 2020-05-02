@@ -1,0 +1,77 @@
+
+body{
+    overflow: hidden;
+    background-color: #f8f9fa!important;
+}
+
+.navTitle {
+    width: 100%;
+}
+
+.verticalMiddle {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    
+    display: flex;
+    align-items: center;
+}
+
+.navBtnRight {
+    position: absolute;
+    right: 0;
+}
+
+.navBtnRightTestCrated {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.navBtnLeft {
+    position: absolute;
+    left: 0;
+}
+
+.btn-block {
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px;
+    padding: 18px;
+}
+
+.taskBox {
+    display: block;
+    padding: 1em;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.fas {
+    font-size: 1.7em;
+}
+
+#addTask {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+#testCreated {
+    position: relative;
+}
+
+h5 {
+    margin-bottom: 0;
+}
+
+.kpiTxt {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#testear {
+    position: absolute;
+    right: 0;
+    margin-right: 1.4em;
+}
